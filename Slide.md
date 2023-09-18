@@ -1,46 +1,38 @@
 ---
 marp: true
+theme: default
+paginate: true
+author: Laeyoung Chang
 ---
 
-# Git과 Github 사용법
+# Github로 따라 배우는 Git 사용법
 
 ---
  
-
-# Introduction to Git and Github
-
-- What is Git?
-- What is Github?
-- Key differences between Git and Github
-- Benefits of using Git and Github
-
-
-
-<!-- Presenter's script: 
-
-"Hello everyone, in this presentation, we will be discussing the basics of Git and Github. We will start by understanding what Git and Github are and then explore their key features and benefits. Let's get started!" 
-
--->
-
- 
+# Introduction to Github
+- [직장인들의 사이드 프로젝트로 시작됨](https://eopla.net/magazines/6661)
+- 전세계에서 제일 큰 Git 호스팅 사이트
+- 거의 모든 Open Source 프로젝트들이 Github 위에서 프로젝트 개발 중
+- 1억명의 Active User가 사용 중
+- 2018년에 MS가 75억달러에 인수함
 
 ---
 
+# From fork
+
+아래 있는 Repo에 가서 Fork 버튼을 누릅니다.
+## https://github.com/Laeyoung/git-workflow-study
+![](./images/fork.png)
  
+---
 
-# Setting up Git
+![](./images/fork.gif)
+ 
+---
 
-- Installing Git
-- Configuring Git
-- Setting up SSH keys
+## Create Codespace
 
-
-<!-- Presenter's script: 
-
-"Now that we have a basic understanding of Git and Github, let's move on to setting up Git on our local machine. We will cover the installation process, configuring Git, and setting up SSH keys for secure communication with Github." 
-
--->
-
+![](./images/codespace.gif)
  
 ---
 
@@ -68,8 +60,7 @@ Git은 원격에 있는 Repo가 터져도 알빠노 실행 가능한 구조
 ---
 
 # Unstaged / Staged / Commit
-
-![](./images/git-2.png)
+![](./images/git-staging.png)
 
 ---
  
