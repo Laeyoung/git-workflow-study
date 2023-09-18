@@ -158,9 +158,11 @@ $ git status
 2. 더 나은 코드
 3. Code에 대한 공통의 이해
 
-
 ---
 
+# GUI를 쓰면 편하다.
+
+--- 
  
 
 - Creating a repository on Github
