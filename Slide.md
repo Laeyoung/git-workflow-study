@@ -5,7 +5,30 @@ paginate: true
 author: Laeyoung Chang
 ---
 
-# Github로 따라 배우는 Git 사용법
+# Github로 따라 배우는 Git 활용법
+
+---
+
+# 왜 Git 쓰나요?
+
+---
+
+# v1.0.0_최종_최종_lastest.zip
+1. commit 단위로 히스토리가 괸리되고 (undo와 redo가 용이함)
+2. branch 단위로 분리 할 수 있고 (작업 버전 분리를 위해, 폴더 복붙 필요 없음)
+3. diff 단위로 저장해서 저장소 용량이 상대적으로 작음
+4. 그리고 남들이 다 써요 😊
+
+---
+
+# SVN vs GIT
+Git은 원격에 있는 Repo가 터져도 알빠노 실행 가능한 구조
+
+![](./images/git_vs_svn_1.png)
+
+---
+
+# Github에서 따라 배우기
 
 ---
  
@@ -18,9 +41,11 @@ author: Laeyoung Chang
 
 ---
 
-# From fork
+## 1. Github 회원가입
 
-아래 있는 Repo에 가서 Fork 버튼을 누릅니다.
+---
+
+## 2. 아래 있는 Repo에 가서 Fork 버튼을 누릅니다.
 ## https://github.com/Laeyoung/git-workflow-study
 ![](./images/fork.png)
  
@@ -30,56 +55,72 @@ author: Laeyoung Chang
  
 ---
 
-## Create Codespace
+## 3. 내 Repo에서 Codespace 만들기
 
 ![](./images/codespace.gif)
  
 ---
 
-# 왜 Git을 써야 하나요?
-
----
-
-# v1.0.0_최종_최종_lastest.zip
-1. commit 단위로 히스토리가 괸리되고 (undo와 redo가 용이함)
-2. branch 단위로 분리 할 수 있고 (작업 버전 분리를 위해, 폴더 복붙 필요 없음)
-3. diff 단위로 저장해서 저장소 용량이 상대적으로 작음
-4. 그리고 남들이 다 써요 (현재 Github active 유저가 1억명)
-
----
-
-# SVN vs GIT
-Git은 원격에 있는 Repo가 터져도 알빠노 실행 가능한 구조
-
-![](./images/git_vs_svn_1.png)
-
----
+## 4. Slide.md 열기
+![bg right](./images/slide-md.png)
  
+---
+
+## 5. 뭐가 있는지 봅시다
+VS Code 하단 터미널 화면에서
+```bash
+$ git branch -a
+```
+ 
+---
+
+## 6. 새로운 branch 만들기
+
+```bash
+$ git checkout -b feature/YOUR_NAME
+```
+- YOUR_NAME을 본인 이름으로 바꿔주세요
+
+---
+
+## 7. README.md에 맛집 추가하기
+
+![](./images/restraunt.png)
+아는 맛집 추가하고 저장
+
+---
+
+## 8. `git status`로 현재 git 상태 확인
+
+```bash
+$ git status
+```
+어떤게 바뀌었나요?
+
+---
+
 # Git 101
 
 ---
 
-# Unstaged / Staged / Commit
+## Unstaged / Staged / Commit
 ![](./images/git-staging.png)
 
 ---
  
-# Basic Git commands
-- `git init`: 새로운 Git 저장소 초기화
-- `git clone`: 원격 저장소 복제
-- `git add`: 변경된 파일 스테이징
+## Basic Git commands
+- `git add`: 변경된 파일을 스테이징에 추가
 - `git commit`: 스테이징된 파일 커밋
+- `git push`: 현재 commit된 내용을 remote repo에 push해서 반영
+- `git pull`: 현재 remote repo에 있는 commit 내용을 local repo에 pull해서 반영
+
+---
+
+## Basic Git commands
+- `git init`: 새로운 Git 저장소(local) 초기화
+- `git clone`: 원격 저장소을 local repo로 복사
 - `git status`: 현재 상태 확인
 - `git log`: 커밋 히스토리 조회
-
-
-<!-- Presenter's script: 
-
-"With Git installed and configured, it's time to learn some basic Git commands. We will cover commands like `git init` to initialize a new repository, `git add` to stage changes, `git commit` to save changes, `git status` to check the status of the repository, `git log` to view commit history, and `git diff` to see the differences between commits." 
-
--->
-
- 
 
 ---
 
