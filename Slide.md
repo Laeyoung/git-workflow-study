@@ -108,7 +108,7 @@ $ git status
 
 ---
  
-## Basic Git commands
+## Basic Git commands(1)
 - `git add`: 변경된 파일을 스테이징에 추가
 - `git commit`: 스테이징된 파일 커밋
 - `git push`: 현재 commit된 내용을 remote repo에 push해서 반영
@@ -116,7 +116,7 @@ $ git status
 
 ---
 
-## Basic Git commands
+## Basic Git commands(2)
 - `git init`: 새로운 Git 저장소(local) 초기화
 - `git clone`: 원격 저장소을 local repo로 복사
 - `git status`: 현재 상태 확인
@@ -128,6 +128,12 @@ $ git status
 
 --- 
 
+# Git Branch Strategy
+1. 여러명이 공동 작업을 할 때, branch를 어떻게 운영 할 것인가?
+2. Repo에 온 사람이 어떤 걸 먼저 보기를 바라는가? (Prod? Dev?)
+
+--- 
+
  
 # Git Flow
 ![](./images/git-workflow.webp)  
@@ -135,7 +141,25 @@ $ git status
 
 --- 
 
-# Creating a new repository
+# Forking Workflow (Github 방식)
+1. 원본 Repo에 Edit 권한을 주지 않고 fork 권한만 준다.
+2. fork를 한 후, 수정 사항을 본인의 repo에 반영한다.
+3. 원본 Repo에 Pull-Request(PR)을 요청한다.
+4. 코드리뷰 후, 원본 Repo의 maintainer가 승인 후 직접 Merge를 한다.
+
+--- 
+
+# 코드 리뷰
+
+--- 
+
+# 코드리뷰가 왜 필요할까?
+1. 이인삼각
+2. 더 나은 코드
+3. Code에 대한 공통의 이해
+
+
+---
 
  
 
