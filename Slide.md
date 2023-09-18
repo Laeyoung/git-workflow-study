@@ -44,32 +44,43 @@ marp: true
  
 ---
 
-# Git 기초
+# 왜 Git을 써야 하나요?
+
+---
+
+# v1.0.0_최종_최종_lastest.zip
+1. commit 단위로 히스토리가 괸리되고 (undo와 redo가 용이함)
+2. branch 단위로 분리 할 수 있고 (작업 버전 분리를 위해, 폴더 복붙 필요 없음)
+3. diff 단위로 저장해서 저장소 용량이 상대적으로 작음
+4. 그리고 남들이 다 써요 (현재 Github active 유저가 1억명)
 
 ---
 
 # SVN vs GIT
-![Github_Logo](./images/git_vs_svn_1.png)  
+Git은 원격에 있는 Repo가 터져도 알빠노 실행 가능한 구조
 
+![](./images/git_vs_svn_1.png)
+
+---
+ 
+# Git 101
 
 ---
 
+# Unstaged / Staged / Commit
+
+![](./images/git-2.png)
+
+---
  
 # Basic Git commands
+- `git init`: 새로운 Git 저장소 초기화
+- `git clone`: 원격 저장소 복제
+- `git add`: 변경된 파일 스테이징
+- `git commit`: 스테이징된 파일 커밋
+- `git status`: 현재 상태 확인
+- `git log`: 커밋 히스토리 조회
 
-- `git init`
-
-- `git add`
-
-- `git commit`
-
-- `git status`
-
-- `git log`
-
-- `git diff`
-
- 
 
 <!-- Presenter's script: 
 
@@ -81,7 +92,16 @@ marp: true
 
 ---
 
+# Git Branch Strategy
+
+--- 
+
  
+# Git Flow
+![](./images/git-workflow.webp)  
+
+
+--- 
 
 # Creating a new repository
 
