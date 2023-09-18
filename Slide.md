@@ -2,52 +2,19 @@
 marp: true
 ---
 
-
 # Git과 Github 사용법
 
- 
-
-- Introduction to Git and Github
-
-- Setting up Git
-
-- Basic Git commands
-
-- Creating a new repository
-
-- Cloning a repository
-
-- Making changes and committing
-
-- Branching and merging
-
-- Collaborating on Github
-
-- Pull requests
-
-- Resolving conflicts
-
-- Best practices for using Git and Github
-
- 
-
 ---
-
  
 
 # Introduction to Git and Github
 
- 
-
 - What is Git?
-
 - What is Github?
-
 - Key differences between Git and Github
-
 - Benefits of using Git and Github
 
- 
+
 
 <!-- Presenter's script: 
 
@@ -63,15 +30,10 @@ marp: true
 
 # Setting up Git
 
- 
-
 - Installing Git
-
 - Configuring Git
-
 - Setting up SSH keys
 
- 
 
 <!-- Presenter's script: 
 
@@ -80,14 +42,20 @@ marp: true
 -->
 
  
+---
+
+# Git 기초
+
+---
+
+# SVN vs GIT
+![Github_Logo](./images/git_vs_svn_1.png)  
+
 
 ---
 
  
-
 # Basic Git commands
-
- 
 
 - `git init`
 
