@@ -1,0 +1,10 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "marp-team.marp-vscode",
+                "yzhang.markdown-all-in-one"
+            ]
+        }
+    }
+}
