@@ -124,20 +124,32 @@ $ git status
 
 ---
 
+# GUI를 쓰면 편하다.
+
+- [Sourcetree](https://www.sourcetreeapp.com/) (Win / Mac) - Free
+- [GitHub Desktop](https://desktop.github.com/) (Win / Mac) - Free
+- [Fork](https://git-fork.com/) (Win / Mac) - Free evalutation / $49.99
+
+--- 
+
 # Git Branch Strategy
 
 --- 
 
 # Git Branch Strategy
-1. 여러명이 공동 작업을 할 때, branch를 어떻게 운영 할 것인가?
-2. Repo에 온 사람이 어떤 걸 먼저 보기를 바라는가? (Prod? Dev?)
+1. 여러명이 공동 작업을 할 때, 어떻게 운영 할 것인가?
+   - 사람이 많을수록 conflict가 많이 날텐데 어떻게 하지?
+   - branch도 엄청 많아 질텐데 어떻게 질서 있게 관리하지?
+  
+2. Repo를 보러 온 사람이 어떤 걸 먼저 보기를 바라는가?
+   - 해당 사람이 바로 다운 받고 실행하길 원하는가?
+   - 해당 사람이 Repo에 코드 기여를 하길 바라는가?
 
 --- 
 
- 
+
 # Git Flow
 ![](./images/git-workflow.webp)  
-
 
 --- 
 
@@ -153,16 +165,29 @@ $ git status
 
 --- 
 
-# 코드리뷰가 왜 필요할까?
-1. 이인삼각
-2. 더 나은 코드
-3. Code에 대한 공통의 이해
+# 코드 리뷰가 왜 필요할까?
+1. 이인삼각 - 한 사람이 만든 프로젝트처럼
+2. 더 나은 코드 - 리뷰를 통해 더 좋은 코드를 위한 아이디어 얻기
+3. Code에 대한 공통의 이해 - 내가 휴가 가도 된다, 코드 리뷰를 한 사람이 백업 해줄 수 있다
 
 ---
 
-# GUI를 쓰면 편하다.
+# Github에서 PR & 코드 리뷰 순서 (git flow 방식)
+1. develop branch 상태에서 feature branch를 만든다. (ex. feature/add-cool-feature)
+2. 만든 branch에서 작업을 하고 주기적으로 remote에 push 한다.
+3. 작업이 완료되면, develop branch를 target으로 PR을 날리고 Reviewer를 지정한다.
+4. Reviewer는 Github에서 코드 리뷰를 진행한다.
+5. 코드 리뷰에서 받은 수정사항을 feature branch에 반영 후, 다시 push 한다.
+6. LGTM과 Approve를 받을 때까지, 4~5를 반복한다.
 
---- 
+###### (질문이 있거나, 설명이 필요하면 PR에 같이 써도 좋다.)
+
+---
+
+# 유명 프로젝트들에서 어떻게 하고 있는지 구경해보자
+https://github.com/MunGell/awesome-for-beginners
+
+---
  
 
 - Creating a repository on Github
