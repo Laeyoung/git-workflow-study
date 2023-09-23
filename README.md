@@ -7,7 +7,7 @@
 
 ### Reference
 - [Pro Git (한국어)](https://git-scm.com/book/ko/v2)
-- https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
-- https://techblog.woowahan.com/2553/
+- [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+- [우린 Git-flow를 사용하고 있어요 - 배민](https://techblog.woowahan.com/2553/)
+- [좋은 README 작성하는 방법](https://news.hada.io/topic?id=10941)
 
-https://news.hada.io/topic?id=10941
