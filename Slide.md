@@ -132,6 +132,24 @@ $ git status
 
 --- 
 
+## ~~Hello~~ Merge!
+
+![bg right](./images/merge.gif)
+
+---
+
+## 1. Merge Commit을 할 것인가?
+
+![](./images/merge-commit.png)
+
+---
+
+## 2. Rebase Merge를 할 것인가?
+
+![](./images/rebase-merge.png)
+
+---
+
 # Git Branch Strategy
 
 --- 
@@ -161,7 +179,33 @@ $ git status
 
 --- 
 
-# 코드 리뷰
+# 다시 실습으로
+
+1. `$ git add .`
+2. `$ git commit -m 'docs: 여기는 블라블라 맛집입니다'`
+  - commit 메세지에 아래와 같은 prefix template을 많이 씁니다.
+  - feat, fix, docs, style, refactor, test, chore, ...
+3. `$ git push`
+
+---
+# Pull Request (PR) 실습
+
+- Github로 다시 돌아가서 Pull Request 보내기
+https://github.com/${USER-ID}/git-workflow-study
+
+![bottom](./images/pr.png)
+
+--- 
+
+# Pull Request (PR) 실습
+
+- base가 Fork를 했던 `Laeyoung/git-workflow-study`인지 확인하고,
+`Create pull request` 클릭
+![bottom](./images/pr2.png)
+
+--- 
+
+![bottom](./images/pr3.png)
 
 --- 
 
@@ -184,206 +228,28 @@ $ git status
 
 ---
 
+# 코드 리뷰 시간
+
+다른 분들이 올린 PR을 보고, 리뷰를 해주자.
+- 기존의 문서와 Format이 동일한지 확인
+- 추가 되거나 더 좋은 것이 있으면 의견을 준다 (ex. 동해루도 맛집인데 같이 추가하면 어떨까요?)
+- 좋은 PR이면 칭찬을 해주자 (ex. 근처에 오래 살았는데 이런 맛집이 있는 줄 몰랐네요, 감사합니다.)
+
+---
+
 # 유명 프로젝트들에서 어떻게 하고 있는지 구경해보자
 https://github.com/MunGell/awesome-for-beginners
 
 ---
  
 
-- Creating a repository on Github
-
-- Initializing a local repository
-
-- Linking the local and remote repositories
-
+# Q&A
  
-
-<!-- Presenter's script: 
-
-"Now that we know the basic Git commands, let's learn how to create a new repository. We will cover creating a repository on Github, initializing a local repository, and linking the local and remote repositories for seamless collaboration." 
-
--->
-
- 
-
----
-
- 
-
-# Cloning a repository
-
- 
-
-- Cloning a repository from Github
-
-- Cloning a repository using SSH or HTTPS
-
- 
-
-<!-- Presenter's script: 
-
-"In this slide, we will learn how to clone an existing repository from Github. We will cover cloning a repository using both SSH and HTTPS protocols, and discuss the advantages of each method." 
-
--->
-
- 
-
----
-
- 
-
-# Making changes and committing
-
- 
-
-- Making changes to files
-
-- Staging and committing changes
-
-- Writing meaningful commit messages
-
- 
-
-<!-- Presenter's script: 
-
-"Now that we have a repository set up and cloned, let's explore how to make changes to files and commit those changes. We will cover staging and committing changes, as well as the importance of writing meaningful commit messages." 
-
--->
-
- 
-
----
-
- 
-
-# Branching and merging
-
- 
-
-- Creating and switching branches
-
-- Merging branches
-
-- Handling merge conflicts
-
- 
-
-<!-- Presenter's script: 
-
-"Branching and merging are essential concepts in Git. In this slide, we will learn how to create and switch branches, merge branches, and handle merge conflicts that may arise during the merging process." 
-
--->
-
- 
-
----
-
- 
-
-# Collaborating on Github
-
- 
-
-- Forking a repository
-
-- Making pull requests
-
-- Reviewing and merging pull requests
-
- 
-
-<!-- Presenter's script: 
-
-"Github provides a platform for collaborative development. In this slide, we will cover forking a repository, making pull requests to contribute changes, and the process of reviewing and merging pull requests." 
-
--->
-
- 
-
----
-
- 
-
-# Pull requests
-
- 
-
-- Creating a pull request
-
-- Adding comments and suggestions
-
-- Resolving feedback
-
- 
-
-<!-- Presenter's script: 
-
-"Pull requests are a crucial part of the collaborative workflow on Github. In this slide, we will learn how to create a pull request, add comments and suggestions to the code, and resolve feedback received during the review process." 
-
--->
-
- 
-
----
-
- 
-
-# Resolving conflicts
-
- 
-
-- Understanding merge conflicts
-
-- Resolving conflicts manually
-
-- Using Git tools to resolve conflicts
-
- 
-
-<!-- Presenter's script: 
-
-"Merge conflicts can occur when merging branches with conflicting changes. In this slide, we will understand what merge conflicts are, learn how to resolve conflicts manually, and explore Git tools that can help us in the conflict resolution process." 
-
--->
-
- 
-
----
-
- 
-
-# Best practices for using Git and Github
-
- 
-
-- Keeping commits small and focused
-
-- Using descriptive commit messages
-
-- Regularly pulling changes from the remote repository
-
-- Collaborating effectively with team members
-
- 
-
-<!-- Presenter's script: 
-
-"To wrap up our presentation, let's discuss some best practices for using Git and Github. We will cover keeping commits small and focused, using descriptive commit messages, regularly pulling changes from the remote repository, and collaborating effectively with team members." 
-
--->
-
- 
-
 ---
 
  
 
 # Thank you!
 
- 
+feat. 맛집 목록이 만들어 졌다!
 
-<!-- Presenter's script: 
-
-"Thank you for attending this presentation on Git and Github usage. We hope you found it informative and gained a better understanding of how to use Git and Github effectively. If you have any questions, feel free to ask." 
-
--->
