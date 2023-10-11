@@ -3,9 +3,12 @@
 ## 맛집 추천
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
+
+### 베트남집
 - [미분당 신당점](https://naver.me/xjeLUFHJ) - 베트남음식
+
+### 카페
 - [칠성조선소](https://naver.me/G6DyYxSs) - 카페
-- 
 
 ### Reference
 - [Pro Git (한국어)](https://git-scm.com/book/ko/v2)
