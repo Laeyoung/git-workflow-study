@@ -1,8 +1,8 @@
 # git-workflow-study
 
-## 맛집 추천
+## 서울 사무실 맛집
 ### 고기
-- [태울](http://map.naver.com/p/search/%ED%83%9C%EC%9A%B8/place/34203295?placePath=?entry=pll&from=nx&fromNxList=true_ - 덜미살
+- [태울](http://map.naver.com/p/search/%ED%83%9C%EC%9A%B8/place/34203295) - 덜미살
 - [갑돌갈비](http://map.naver.com/p/search/%EA%B0%91%EB%8F%8C%EA%B0%88%EB%B9%84/place/16196207?placePath=?entry=pll&from=nx&fromNxList=true) - 돼지갈비
 
 ### 중국집
@@ -25,7 +25,8 @@
 - [광세 족발](https://naver.me/FQaIpWJa) - 족발은 광세족발
 - [달랭이](https://map.naver.com/p/search/%EB%8B%AC%EB%9E%AD%EC%9D%B4) - 낙곱새, 곱창, 내장종류
 
-### Reference
+
+## Reference
 - [Pro Git (한국어)](https://git-scm.com/book/ko/v2)
 - [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 - [우린 Git-flow를 사용하고 있어요 - 배민](https://techblog.woowahan.com/2553/)
