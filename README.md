@@ -3,6 +3,9 @@
 ## 맛집 추천
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
+
+### 피자집
+- [유민](https://web.dominos.co.kr/) - 포테이토 피자
   
 ###한식
 - [여수돼지국밥](https://naver.me/FslKrcd0) - 국밥, 수육
@@ -22,3 +25,4 @@
 - [우린 Git-flow를 사용하고 있어요 - 배민](https://techblog.woowahan.com/2553/)
 - [좋은 README 작성하는 방법](https://news.hada.io/topic?id=10941)
 - [What is in that .git directory?](https://blog.meain.io/2023/what-is-in-dot-git/)
+- 
