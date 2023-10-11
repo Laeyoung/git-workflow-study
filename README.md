@@ -3,8 +3,21 @@
 ## 맛집 추천
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
+
 ### 피자집
 - [유민](https://web.dominos.co.kr/) - 포테이토 피자
+  
+###한식
+- [여수돼지국밥](https://naver.me/FslKrcd0) - 국밥, 수육
+
+### 베트남집
+- [미분당 신당점](https://naver.me/xjeLUFHJ) - 베트남음식
+
+### 카페
+- [칠성조선소](https://naver.me/G6DyYxSs) - 카페
+
+### 한식
+- [달랭이](https://map.naver.com/p/search/%EB%8B%AC%EB%9E%AD%EC%9D%B4) - 낙곱새, 곱창, 내장종류
 
 ### Reference
 - [Pro Git (한국어)](https://git-scm.com/book/ko/v2)
