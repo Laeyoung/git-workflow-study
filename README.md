@@ -3,6 +3,9 @@
 ## 맛집 추천
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
+
+### 피자집
+- [유민](https://web.dominos.co.kr/) - 포테이토 피자
   
 ###한식
 - [여수돼지국밥](https://naver.me/FslKrcd0) - 국밥, 수육
@@ -13,11 +16,10 @@
 ### 카페
 - [칠성조선소](https://naver.me/G6DyYxSs) - 카페
 
-
-
 ## 대전 사무실 맛집
 ### 한식
 - [광세 족발](https://naver.me/FQaIpWJa) - 족발은 광세족발
+- [달랭이](https://map.naver.com/p/search/%EB%8B%AC%EB%9E%AD%EC%9D%B4) - 낙곱새, 곱창, 내장종류
 
 ### Reference
 - [Pro Git (한국어)](https://git-scm.com/book/ko/v2)
@@ -25,3 +27,4 @@
 - [우린 Git-flow를 사용하고 있어요 - 배민](https://techblog.woowahan.com/2553/)
 - [좋은 README 작성하는 방법](https://news.hada.io/topic?id=10941)
 - [What is in that .git directory?](https://blog.meain.io/2023/what-is-in-dot-git/)
+- 
