@@ -3,6 +3,7 @@
 ## 맛집 추천
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
+- [바스버거](https://naver.me/5tj4fLry) - 햄버거
 - 
 
 ### Reference
