@@ -1,13 +1,17 @@
 # git-workflow-study
 
 ## 맛집 추천
+### 고기
+- [태울](http://map.naver.com/p/search/%ED%83%9C%EC%9A%B8/place/34203295?placePath=?entry=pll&from=nx&fromNxList=true_ - 덜미살
+- [갑돌갈비](http://map.naver.com/p/search/%EA%B0%91%EB%8F%8C%EA%B0%88%EB%B9%84/place/16196207?placePath=?entry=pll&from=nx&fromNxList=true) - 돼지갈비
+
 ### 중국집
 - [원흥](https://naver.me/FHYuoU9G) - 고기튀김, 짬뽕
 
 ### 피자집
 - [유민](https://web.dominos.co.kr/) - 포테이토 피자
   
-###한식
+### 한식
 - [여수돼지국밥](https://naver.me/FslKrcd0) - 국밥, 수육
 
 ### 베트남집
