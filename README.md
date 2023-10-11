@@ -16,7 +16,9 @@
 ### 카페
 - [칠성조선소](https://naver.me/G6DyYxSs) - 카페
 
+## 대전 사무실 맛집
 ### 한식
+- [광세 족발](https://naver.me/FQaIpWJa) - 족발은 광세족발
 - [달랭이](https://map.naver.com/p/search/%EB%8B%AC%EB%9E%AD%EC%9D%B4) - 낙곱새, 곱창, 내장종류
 
 ### Reference
