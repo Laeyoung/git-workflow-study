@@ -14,7 +14,7 @@ author: Laeyoung Chang
 ---
 
 # v1.0.0_최종_최종_lastest.zip
-1. commit 단위로 히스토리가 괸리되고 (undo와 redo가 용이함)
+1. commit 단위로 히스토리가 관리되고 (undo와 redo가 용이함)
 2. branch 단위로 분리 할 수 있고 (작업 버전 분리를 위해, 폴더 복붙 필요 없음)
 3. diff 단위로 저장해서 저장소 용량이 상대적으로 작음
 4. 그리고 남들이 다 써요 😊
@@ -22,7 +22,7 @@ author: Laeyoung Chang
 ---
 
 # SVN vs GIT
-Git은 원격에 있는 Repo가 터져도 알빠노 실행 가능한 구조
+Git은 원격에 있는 Repo가 터져도 상관 없는 구조
 
 ![](./images/git_vs_svn_1.png)
 
